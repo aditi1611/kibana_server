@@ -4,6 +4,6 @@ ssh root@$1
 
 git clone https://github.com/aditi1611/kibana_server
 
-chmod +x ./kiban_server/automate.sh
+chmod +x ./kibana_server/automate.sh
 
 ./kibana-server/automate.sh
