@@ -21,3 +21,8 @@ mkdir -p /var/log/varlog
 mkdir -p /var/lib/docker/containers
 
 kubectl create -f ./kibana_server/yaml_files/fluentd-daemonset.yaml
+
+kubectl get pods -n logging
+
+kubectl get service -n logging
+

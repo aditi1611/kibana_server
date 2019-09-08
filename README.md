@@ -13,4 +13,6 @@ $ chmod +x setup_kibana
 
 $ ./setup_kibana  REMOTE_IP
 
+Now access your kibana server from browser by REMOTE_MINIKUBE_IP:5601 
+
 
