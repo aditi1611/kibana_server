@@ -1,0 +1,9 @@
+#!/bin/bash
+
+ssh root@$1
+
+git clone https://github.com/aditi1611/kibana_server
+
+chmod +x ./automate.sh
+
+./automate.sh
